@@ -25,14 +25,35 @@
   &.open
     transform: translateX(100%)
 
+// for the logo on sidebar  top
+
+.sidebar-logo
+  font-size: $logo-font-size
+  line-height: $logo-height
+  text-align: center
+  color: $logo-color
+  margin-top: 2vh
+  margin-bottom: 2vh
+  margin: 2vh
+  // transition: color .15s linear, box-shadow .3s $time-function
+  cursor: pointer
+  &:hover
+    color: $tag-hover-color
+    // box-shadow: inset 6px 0 0 $toc-bg
+  &.active
+    color: $tag-active-color
+    // box-shadow: inset $sidebar-left-width 0 0 $toc-bg
+  // &.a
+  //   text-decoration:none
 
 // Sidebar Left
 
 #sidebar-avatar
   display: block
   width: $avatar-size
-  margin: 4vh auto 1.5vh
-  margin-top: 0pt
+  // margin: 4vh auto 1.5vh
+  margin: 2vh
+  margin-top: 0vh
   border: $avatar-border-size solid $avatar-border-color
   border-radius: 50%
   overflow: hidden
@@ -98,25 +119,6 @@
     box-shadow: inset $sidebar-left-width 0 0 $toc-bg
 
 
-// for the logo on sidebar  top
-
-.sidebar-logo
-  font-size: $logo-font-size
-  line-height: $logo-height
-  text-align: center
-  color: $logo-color
-  margin-top: 6pt
-  margin-bottom: 6pt
-  // transition: color .15s linear, box-shadow .3s $time-function
-  cursor: pointer
-  &:hover
-    color: $tag-hover-color
-    // box-shadow: inset 6px 0 0 $toc-bg
-  &.active
-    color: $tag-active-color
-    // box-shadow: inset $sidebar-left-width 0 0 $toc-bg
-  // &.a
-  //   text-decoration:none
 
 // Sidebar Right
 
