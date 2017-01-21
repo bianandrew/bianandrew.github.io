@@ -9,7 +9,7 @@ keywords: sports, fitness, life
 ## 为什么健身
 引用 gym 里的一个标语再合适不过：
 <!-- > **For Body and Soul.** -->
-<blockquote> <p><strong>For Body and Soul.</strong></p> </blockquote>
+<blockquote> <p><strong>For Brian, Body and Soul.</strong></p> </blockquote>
 
 ## 健身的技术
 
