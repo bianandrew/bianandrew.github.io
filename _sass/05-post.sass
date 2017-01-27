@@ -65,7 +65,7 @@ h1 + h2, h2 + h3, h3 + h4, h4 + h5, h5 + h6
       color: $post-link-hover-color
 
   p, ul, ol
-    margin-top: 0
+    margin-top: $post-paragraph-spacing
     margin-bottom: $post-paragraph-spacing
 
   ul, ol
@@ -78,17 +78,24 @@ h1 + h2, h2 + h3, h3 + h4, h4 + h5, h5 + h6
       margin-bottom: 0
 
   blockquote
-    position: relative
-    margin: 0 0 $post-paragraph-spacing 2em
+    // position: relative
+    margin: 1.8em .8em
+    text-align: left
+    border-left: 6px solid $gray
+    padding: 0.1em 1em
+    font-size: normal
     font-style: italic
-    &:before
-      @extend %icon
-      @extend %icon-quotes-left
-      position: absolute
-      top: 0
-      left: -1.5em
-      z-index: 1
-      transform: rotate(180deg)
+    // position: relative
+    // margin: 0 0 $post-paragraph-spacing 2em
+    // font-style: italic
+    // &:before
+    //   @extend %icon
+    //   @extend %icon-quotes-left
+    //   position: absolute
+    //   top: 0
+    //   left: -1.5em
+    //   z-index: 1
+    //   transform: rotate(180deg)
 
   img
     display: block
@@ -174,3 +181,12 @@ h1 + h2, h2 + h3, h3 + h4, h4 + h5, h5 + h6
       outline: none
       &:hover
         color: $footer-link-hover-color
+
+// Specify the color of the selection
+::-moz-selection
+  color: $white
+  background: $blue
+
+::selection
+  color: $white
+  background: $blue

@@ -1,5 +1,5 @@
 #### This is the repository of my personal blog:
-## Blog name:  安德鲁安
+## Blog name:  德鲁安安
 
 URL: [http://anbian.org](http://anbian.org)
 
