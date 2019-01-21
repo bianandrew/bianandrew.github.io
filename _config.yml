@@ -1,12 +1,12 @@
 # Site settings
-title: 卞卞卞
+title: YA卞
 email: yataobian@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  YA
+  YA卞
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: http://anbian.org # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
-author: YA
+author: YA卞
 
 # Sidebar filter
 # Choose 'tag' or 'category' as filter in sidebar.
